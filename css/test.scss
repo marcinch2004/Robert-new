@@ -89,10 +89,12 @@ form {
     cursor: pointer;
     font-weight: 300;
     &.primary {
+      margin-top: 1rem;
       width: auto;
       padding: 1.5rem 2.5rem;
       border: none;
       background-color: white;
+      background-color: red;
       border-radius: 2rem;
       transition: all 0.2s ease-in;
       &:hover {
