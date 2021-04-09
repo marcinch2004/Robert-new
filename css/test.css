@@ -122,7 +122,6 @@ form .button.primary {
   padding: 1.5rem 2.5rem;
   border: none;
   background-color: white;
-  background-color: red;
   border-radius: 2rem;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -130,5 +129,19 @@ form .button.primary {
 
 form .button.primary:hover {
   opacity: .7;
+}
+
+.show-on-scroll {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.is-visible {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
 }
 /*# sourceMappingURL=test.css.map */
