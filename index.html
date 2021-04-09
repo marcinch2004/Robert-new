@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Robert Jarocki</title>
+  <meta name="description" content="Robert Jrocki contact page">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/test.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <header id="navbar">
+    <a class="site-logo" id="site-title" href="/" data-animation-role="header-element">Robert Jarocki</a>
+  </header>
+
+  <main>
+    <div class="content-wrapper">
+    <h3>Please fill out the form below to request aa&nbsp;quote for a&nbsp;project, inquire about a&nbsp;collaboration, or simply say hello.</h3>
+
+    <form action="POST" data-netlify="true">
+      <div class="fields">
+        <div class="fields-wrapper">
+          <div class="field half">
+            <legend class="title">Name
+              <span class="required" aria-hidden="true">*</span>
+            </legend>
+            <input type="text" name="first-name" id="first-name" placeholder="First Name" />
+          </div>
+          <div class="field half">
+            <legend class="title">Last Name
+              <span class="required" aria-hidden="true">*</span>
+            </legend>
+            <input type="text" name="name" id="name" placeholder="Last Name" />
+          </div>
+        </div>
+        <div class="field half">
+          <legend class="title">Email
+            <span class="required" aria-hidden="true">*</span>
+          </legend>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="field half">
+          <legend class="title">Subject
+            <span class="required" aria-hidden="true">*</span>
+          </legend>
+          <input type="text" name="subject" id="subject" placeholder="Subject" />
+        </div>
+        <div class="field">
+          <legend class="title">Message
+            <span class="required" aria-hidden="true">*</span>
+          </legend>
+          <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+        </div>
+        <div class="field">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+      </div>
+      <div class="actions">
+        <input type="submit" value="Submit" class="button primary" />
+      </div>
+    </form>
+
+  </div>
+
+    <img src="img/main-image.jpg">
+
+    <div class="content-wrapper text">
+      <h4>Hours</h4>
+      <p>Monday — Friday</p>
+      <p>10:30am — 4pm</p>
+    </div>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+
+  <!-- Add your site or application content here -->
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
